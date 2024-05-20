@@ -671,6 +671,8 @@ public class Controller {
                 } else if (newValue == RMaterial) {
                     productLabel.setText("Production Date");
                     productionDatePicker.setValue(LocalDate.now());
+                    productionDatePicker.getEditor().setDisable(true);
+
                     productionDatePicker.setVisible(true);
                 }
             });
@@ -684,6 +686,7 @@ public class Controller {
         if (errorLabel21 != null) {
             errorLabel21.setVisible(false);
             // Add listeners to the text properties of all text fields
+            paymentDatePicker.getEditor().setDisable(true);
             paymentDatePicker.setValue(LocalDate.now());
             paymentDatePicker.valueProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue.toString(), errorLabel21));
             orderIDField4.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel21));
@@ -699,6 +702,8 @@ public class Controller {
         }
         if (errorLabel22 != null) {
             errorLabel22.setVisible(false);
+            estDatePicker.getEditor().setDisable(true);
+            actDatePicker.getEditor().setDisable(true);
             // Add listeners to the text properties of all text fields
             orderIDField5.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel22));
               statusList.setItems(FXCollections.observableArrayList(
@@ -722,6 +727,7 @@ public class Controller {
                 } else if (newValue == RMaterial2) {
                     productLabel2.setText("Production Date");
                     productionDatePicker2.setValue(LocalDate.now());
+                    productionDatePicker2.getEditor().setDisable(true);
                     productionDatePicker2.setVisible(true);
                 }
             });
@@ -760,7 +766,7 @@ public class Controller {
             productIDField2.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel15));
         }
         if (errorLabel6 != null) {
-            for (Product product : products) {
+
                 selectProducts.getItems().addAll(products); // Add your product names here
                 selectProducts.setCellFactory(param -> new ListCell<Product>() {
                     @Override
@@ -774,7 +780,6 @@ public class Controller {
                         }
                     }
                 });
-            }
             selectProducts.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             selectProducts.getSelectionModel().getSelectedItems().addListener((ListChangeListener<Product>) change -> {
                 // Check if selection becomes empty
@@ -789,7 +794,6 @@ public class Controller {
 
         }
         if (errorLabel16 != null) {
-            for (Product product : products) {
                 selectProducts5.getItems().addAll(products); // Add your product names here
                 selectProducts5.setCellFactory(param -> new ListCell<Product>() {
                     @Override
@@ -803,7 +807,6 @@ public class Controller {
                         }
                     }
                 });
-            }
             selectProducts5.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             selectProducts5.getSelectionModel().getSelectedItems().addListener((ListChangeListener<Product>) change -> {
                 // Check if selection becomes empty
@@ -815,10 +818,10 @@ public class Controller {
             orderIDField.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel16));
             customerInfoField.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel16));
             orderDatePicker.setValue(LocalDate.now());
+            orderDatePicker.getEditor().setDisable(true);
             orderDatePicker.valueProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue.toString(), errorLabel16));
         }
         if (errorLabel17 != null) {
-            for (Product product : products) {
                 selectProducts6.getItems().addAll(products); // Add your product names here
                 selectProducts6.setCellFactory(param -> new ListCell<Product>() {
                     @Override
@@ -832,12 +835,11 @@ public class Controller {
                         }
                     }
                 });
-            }
+
             selectProducts6.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             orderIDField2.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel17));
         }
         if (errorLabel9 != null) {
-            for (Inventory inventory : inventories) {
                 inventoriesList.getItems().addAll(inventories); // Add your product names here
                 inventoriesList.setCellFactory(param -> new ListCell<Inventory>() {
                     @Override
@@ -851,7 +853,7 @@ public class Controller {
                         }
                     }
                 });
-            }
+
             inventoriesList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             inventoriesList.getSelectionModel().getSelectedItems().addListener((ListChangeListener<Inventory>) change -> {
                 // Check if selection becomes empty
@@ -867,7 +869,7 @@ public class Controller {
 
         }
         if (errorLabel12 != null) {
-            for (Product product : products) {
+
                 selectProducts3.getItems().addAll(products); // Add your product names here
                 selectProducts3.setCellFactory(param -> new ListCell<Product>() {
                     @Override
@@ -881,7 +883,7 @@ public class Controller {
                         }
                     }
                 });
-            }
+
             selectProducts3.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             selectProducts3.getSelectionModel().getSelectedItems().addListener((ListChangeListener<Product>) change -> {
                 // Check if selection becomes empty
@@ -895,7 +897,7 @@ public class Controller {
             contactField.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel12));
         }
         if (errorLabel13 != null) {
-            for (Product product : products) {
+
                 selectProducts4.getItems().addAll(products); // Add your product names here
                 selectProducts4.setCellFactory(param -> new ListCell<Product>() {
                     @Override
@@ -909,14 +911,13 @@ public class Controller {
                         }
                     }
                 });
-            }
+
             selectProducts4.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             selectProducts4.getSelectionModel().getSelectedItems().addListener((ListChangeListener<Product>) change -> {
             });
             supplierIDField4.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel13));
         }
         if (errorLabel10 != null) {
-            for (Inventory inventory : inventories) {
                 inventoriesList2.getItems().addAll(inventories); // Add your product names here
                 inventoriesList2.setCellFactory(param -> new ListCell<Inventory>() {
                     @Override
@@ -930,7 +931,7 @@ public class Controller {
                         }
                     }
                 });
-            }
+
             inventoriesList2.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             inventoriesList2.getSelectionModel().getSelectedItems().addListener((ListChangeListener<Inventory>) change -> {
 
@@ -938,7 +939,7 @@ public class Controller {
             warehouseIDField4.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel10));
         }
         if (errorLabel7 != null) {
-            for (Product product : products) {
+
                 selectProducts2.getItems().addAll(products); // Add your product names here
                 selectProducts2.setCellFactory(param -> new ListCell<Product>() {
                     @Override
@@ -952,7 +953,7 @@ public class Controller {
                         }
                     }
                 });
-            }
+
             selectProducts2.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
             inventoryIDField2.textProperty().addListener((observable, oldValue, newValue) -> handleTextFieldChange(newValue, errorLabel7));
         }
@@ -2728,7 +2729,10 @@ public class Controller {
     private void handleUpdateInventoryClick() throws IOException {
         String inventoryid = inventoryIDField2.getText().trim();
         String warehouseid = warehouseIDField2.getText().trim();
-        int quantity = Integer.parseInt(quantityField2.getText().trim());
+        int quantity = 0;
+        if(!quantityField2.getText().trim().equals("")) {
+            quantity = Integer.parseInt(quantityField2.getText().trim());
+        }
         ArrayList<Product> userProducts = new ArrayList<>(selectProducts2.getSelectionModel().getSelectedItems());
         for (Inventory inventory : inventories) {
             if (inventory.getInventoryID().equals(inventoryid)) {
@@ -2919,11 +2923,10 @@ public class Controller {
 
             if (result == ButtonType.YES) {
                 // Remove the warehouse ID from all inventories inside the warehouse
-                for (Inventory inventory : inventories) {
-                    if (inventory.getWarehouseID().equals(warehouseId)) {
+                for (Inventory inventory : warehouseToDelete.getInventories()) {
                         inventory.setWarehouseID(""); // Set warehouse ID to an empty string or handle it according to your logic
                         inventory.updateInventoryItem();
-                    }
+
                 }
 
                 // Delete the warehouse and remove it from the warehouses list
@@ -3207,6 +3210,7 @@ public class Controller {
     private void handleupdateOrderClick() throws IOException{
         String orderID = orderIDField2.getText().trim();
         String customerInfo = customerInfoField2.getText().trim();
+        orderDatePicker2.getEditor().setDisable(true);
         LocalDate date = orderDatePicker2.getValue();
         ArrayList<Product> userProducts = new ArrayList<>(selectProducts6.getSelectionModel().getSelectedItems());
         if(orderID.equals("")){

@@ -119,9 +119,12 @@ public class Inventory {
         }
 
         // Update the inventory item details
-        JSONObject inventoryJson = inventoryItems.getJSONObject(index);
+        JSONObject inventoryJson = new JSONObject();
+        inventoryJson.put("InventoryID", inventoryID);
+        inventoryJson.put("WarehouseID", warehouseID);
         inventoryJson.put("Quantity", quantity);
-        // Update products in the inventory JSON
+
+        // Add products to the inventory JSON
         JSONArray productsJson = new JSONArray();
         for (Product product : products) {
             JSONObject productJson = new JSONObject();
@@ -134,19 +137,24 @@ public class Inventory {
             if(product instanceof RawMaterial) {
                 productJson.put("type", "rawMaterial");
                 productJson.put("MaterialType", ((RawMaterial) product).getMaterialType());
-            }else{
+            } else {
                 productJson.put("type", "finishedGoods");
                 productJson.put("ProductionDate", ((FinishedGoods) product).getProductionDate());
             }
             productsJson.put(productJson);
         }
         inventoryJson.put("Products", productsJson);
+
+        // Replace the existing inventory item at the found index
+        inventoryItems.put(index, inventoryJson);
+
         // Write the updated JSON array back to the file
         writeInventoryToFile(inventoryItems);
 
         // Return 1 to indicate one row updated
         return 1;
     }
+
 
     public int deleteInventoryItem() throws IOException {
         // Read existing inventory items from the file
