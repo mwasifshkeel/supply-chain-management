@@ -37,67 +37,67 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
     - Order status updates (e.g., processing, shipped, delivered).
     - Order history and tracking.
 
-    ![Order Management Image](images/order.png)
+    <img src="images/order.png" alt="Order Management Image" width="200" height="150">
 
 2. **Inventory Tracking**:
     - Monitor stock levels.
     - Update inventory quantities.
     - Handle restocking from suppliers.
 
-    ![Inventory Tracking Image](images/inventory.png)
+    <img src="images/inventory.png" alt="Inventory Tracking Image" width="200" height="150">
 
 3. **Supplier Interaction**:
     - Manage supplier information.
     - Place orders with suppliers.
     - Schedule deliveries.
 
-    ![Supplier Interaction Image](images/supplier.png)
+    <img src="images/supplier.png" alt="Supplier Interaction Image" width="200" height="150">
 
 4. **Product Information Management**:
     - Maintain detailed product information.
     - Include pricing, descriptions, and specifications.
 
-    ![Product Information Management Image](images/product.png)
+    <img src="images/product.png" alt="Product Information Management Image" width="200" height="150">
 
 5. **Customer Management**:
     - Store customer details (contact info, order history).
     - Enhance customer service.
 
-    ![Customer Management Image](images/customer.png)
+    <img src="images/customer.png" alt="Customer Management Image" width="200" height="150">
 
 6. **Order Processing Workflow**:
     - Automate order processing from placement to delivery.
     - Handle payment processing.
 
-    ![Order Processing Workflow Image](images/order2.png)
+    <img src="images/order2.png" alt="Order Processing Workflow Image" width="200" height="150">
 
 7. **Payment Handling**:
     - Securely process payments.
     - Support multiple payment methods.
 
-    ![Payment Handling Image](images/payment.png)
+    <img src="images/payment.png" alt="Payment Handling Image" width="200" height="150">
 
 8. **Object-Oriented Design**:
     - Create classes corresponding to entities in the UML diagram (e.g., Order, Inventory, Supplier).
     - Implement inheritance and encapsulation.
 
-    ![Object-Oriented Design Image](images/oop.png)
+    <img src="images/oop.png" alt="Object-Oriented Design Image" width="200" height="150">
 
 9. **File Handling**:
     - Use JSON to store data.
 
-    ![File Handling Image](images/json.png)
+    <img src="images/json.png" alt="File Handling Image" width="200" height="150">
 
 10. **Error Handling**:
     - Prevent user from typing illegal characters in TextField.
     - Utilize try-catch blocks to manage errors.
 
-    ![Error Handling Image](images/error-handling.png)
+    <img src="images/error-handling.png" alt="Error Handling Image" width="200" height="150">
 
 11. **JavaFX**:
     - Use JavaFX for GUI.
 
-    ![JavaFX Image](images/javafx.png)
+    <img src="images/javafx.png" alt="JavaFX Image" width="200" height="150">
 
 ## Authors
 
@@ -113,13 +113,12 @@ Distributed under the MIT License.
 
 ## Acknowledgements
 
-
-•	[Java] (https://docs.oracle.com/en/java/)
-•	[Maven] (https://maven.apache.org/guides/index.html)
-•	[JavaFX] (https://openjfx.io/openjfx-docs/)
-•	[IntelliJ Idea] (https://www.jetbrains.com/help/idea/getting-started.html)
-•	[FasterXML Jackson JSON] (https://github.com/FasterXML/jackson/blob/master/MANUAL.md)
-•	[Apache Commons Math] (https://commons.apache.org/proper/commons-math/)
-•	[JSON] (https://github.com/stleary/JSON-java)
-•	[All Icons] (https://www.svgrepo.com/)
-•	[Scene Builder] (https://docs.gluonhq.com/)
+- [Java](https://docs.oracle.com/en/java/)
+- [Maven](https://maven.apache.org/guides/index.html)
+- [JavaFX](https://openjfx.io/openjfx-docs/)
+- [IntelliJ IDEA](https://www.jetbrains.com/help/idea/getting-started.html)
+- [FasterXML Jackson JSON](https://github.com/FasterXML/jackson/blob/master/MANUAL.md)
+- [Apache Commons Math](https://commons.apache.org/proper/commons-math/)
+- [JSON](https://github.com/stleary/JSON-java)
+- [All Icons](https://www.svgrepo.com/)
+- [Scene Builder](https://docs.gluonhq.com/)
