@@ -22,3 +22,71 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
 2. Click on the "Run" button in the toolbar or right-click on the main class file and select "Run <MainClassName>" from the context menu.
 
 ## Key Features and Functionalities Implemented:
+
+1. **Order Management**:
+    - Ability to create, track, and manage orders.
+    - Order status updates (e.g., processing, shipped, delivered).
+    - Order history and tracking.
+
+    ![Order Management Image](#)
+
+2. **Inventory Tracking**:
+    - Monitor stock levels.
+    - Update inventory quantities.
+    - Handle restocking from suppliers.
+
+    ![Inventory Tracking Image](#)
+
+3. **Supplier Interaction**:
+    - Manage supplier information.
+    - Place orders with suppliers.
+    - Schedule deliveries.
+
+    ![Supplier Interaction Image](#)
+
+4. **Product Information Management**:
+    - Maintain detailed product information.
+    - Include pricing, descriptions, and specifications.
+
+    ![Product Information Management Image](#)
+
+5. **Customer Management**:
+    - Store customer details (contact info, order history).
+    - Enhance customer service.
+
+    ![Customer Management Image](#)
+
+6. **Order Processing Workflow**:
+    - Automate order processing from placement to delivery.
+    - Handle payment processing.
+
+    ![Order Processing Workflow Image](#)
+
+7. **Payment Handling**:
+    - Securely process payments.
+    - Support multiple payment methods.
+
+    ![Payment Handling Image](#)
+
+8. **Object-Oriented Design**:
+    - Create classes corresponding to entities in the UML diagram (e.g., Order, Inventory, Supplier).
+    - Implement inheritance and encapsulation.
+
+    ![Object-Oriented Design Image](#)
+
+9. **File Handling**:
+    - Use JSON to store data.
+
+    ![File Handling Image](#)
+
+10. **Error Handling**:
+    - Prevent user from typing illegal characters in TextField.
+    - Utilize try-catch blocks to manage errors.
+
+    ![Error Handling Image](#)
+
+11. **JavaFX**:
+    - Use JavaFX for GUI.
+
+    ![JavaFX Image](#)
+
