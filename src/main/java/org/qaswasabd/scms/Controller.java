@@ -726,9 +726,10 @@ public class Controller {
                     productionDatePicker2.setVisible(false);
                 } else if (newValue == RMaterial2) {
                     productLabel2.setText("Production Date");
+                    productTypeTextField2.setVisible(false);
+                    productionDatePicker2.setVisible(true);
                     productionDatePicker2.setValue(LocalDate.now());
                     productionDatePicker2.getEditor().setDisable(true);
-                    productionDatePicker2.setVisible(true);
                 }
             });
         }
@@ -2111,6 +2112,7 @@ public class Controller {
                     cellData.getValue().getProducts().stream()
                             .map(Product::getProductID)
                             .collect(Collectors.joining(", "))));
+
             totalPriceColumn.setCellValueFactory(new PropertyValueFactory<>("totalPrice"));
             // Populate the table view with data
             orderList.addAll(orders); // Assuming inventories is your list of Inventory objects
@@ -3188,7 +3190,7 @@ public class Controller {
             errorLabel16.setText("Field cannot be empty!");
             return;
         }
-        Order order = new Order(orderID,date,products,customerInfo);
+        Order order = new Order(orderID,date,userProducts,customerInfo);
         orders.add(order);
         if(order.addOrder()!=-1){
             DeliveryTracking dt = new DeliveryTracking(orderID+"_DT",orderID,"RabbitCourierX",date.plusWeeks(1));

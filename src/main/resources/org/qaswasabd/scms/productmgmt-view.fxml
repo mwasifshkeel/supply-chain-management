@@ -50,6 +50,6 @@
             </Label>
          </children>
        </GridPane>
-      <Button layoutX="28.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#handleInventoryMgmt" styleClass="backbtn" />
+      <Button layoutX="27.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#handleInventoryMgmt" styleClass="backbtn" />
    </children>
 </AnchorPane>

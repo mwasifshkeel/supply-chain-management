@@ -13,7 +13,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 public class RawMaterial extends Product {
     @JsonProperty("MaterialType")
     private String materialType;
-    private static final String FILE_PATH = "src/main/resources/org/qaswasabd/scms/JSON/products.json";
+    private static final String FILE_PATH = "src/main/resources/org/qaswasabd/scms/JSON/`products.json";
 
     @JsonCreator
     public RawMaterial(@JsonProperty("ProductID") String productID,

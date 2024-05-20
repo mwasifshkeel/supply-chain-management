@@ -1,0 +1,15 @@
+[{
+    "SupplierID": "1",
+    "Products": [{
+        "SupplierID": "1",
+        "UnitPrice": 40,
+        "Description": "Clothing",
+        "ProductName": "Jeans",
+        "ProductID": "1",
+        "type": "finishedGoods",
+        "ProductionDate": "2024-05-20",
+        "QuantityInStock": 30
+    }],
+    "SupplierName": "Abdullah",
+    "ContactInfo": "03238792935"
+}]

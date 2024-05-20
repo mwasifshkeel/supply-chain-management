@@ -92,30 +92,25 @@
             linear-gradient(to bottom right, #c6e1c3, #b9d7ab);;
 }
 
-.btn{
-    -fx-background-color: transparent;
-    -fx-border-radius: 10px;
-    -fx-border-color: black;
-    -fx-background-radius: 10px;
-
-}
-
-.btn:hover{
+.btn {
     -fx-background-color:
-            linear-gradient(to bottom right, #eff2eb, #e6f0df),
-            linear-gradient(to bottom right, #eff2eb, #e6f0df);
-    -fx-cursor: hand;
-    -fx-border-radius: 10px;
-    -fx-border-color: black;
-    -fx-background-radius: 10px;
+            linear-gradient(to bottom right, #FAD0C4, #FFD1FF);
+    -fx-text-fill: #5A5A5A; /* Soft dark text */
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
 }
-
+.btn:hover {
+    -fx-background-color:
+            linear-gradient(to bottom right, #FFD1FF, #FAD0C4);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 0, 0);
+}
 .btn:pressed {
     -fx-background-color:
-            linear-gradient(to bottom right, #c6e1c3, #b9d7ab),
-            linear-gradient(to bottom right, #c6e1c3, #b9d7ab);
-    -fx-border-radius: 10px;
-    -fx-border-color: black;
-    -fx-background-radius: 10px;
-    -fx-cursor: hand;
+            linear-gradient(to bottom right, #FFD1FF, #FAD0C4),
+            linear-gradient(to bottom right, #FFD1FF, #FAD0C4);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 20, 0, 0, 0);
+    -fx-padding: 8 18 8 18;
 }
+
