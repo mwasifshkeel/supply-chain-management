@@ -44,60 +44,60 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
     - Update inventory quantities.
     - Handle restocking from suppliers.
 
-    <img src="images/inventory.png" alt="Inventory Tracking Image" width="950" height="500">
+    <img src="images/inventory.png" alt="Inventory Tracking Image" width="700" height="400">
 
 3. **Supplier Interaction**:
     - Manage supplier information.
     - Place orders with suppliers.
     - Schedule deliveries.
 
-    <img src="images/supplier.png" alt="Supplier Interaction Image" width="950" height="500">
+    <img src="images/supplier.png" alt="Supplier Interaction Image" width="700" height="400">
 
 4. **Product Information Management**:
     - Maintain detailed product information.
     - Include pricing, descriptions, and specifications.
 
-    <img src="images/product.png" alt="Product Information Management Image" width="950" height="500">
+    <img src="images/product.png" alt="Product Information Management Image" width="700" height="400">
 
 5. **Customer Management**:
     - Store customer details (contact info, order history).
     - Enhance customer service.
 
-    <img src="images/customer.png" alt="Customer Management Image" width="950" height="500">
+    <img src="images/customer.png" alt="Customer Management Image" width="700" height="400">
 
 6. **Order Processing Workflow**:
     - Automate order processing from placement to delivery.
     - Handle payment processing.
 
-    <img src="images/order2.png" alt="Order Processing Workflow Image" width="950" height="500">
+    <img src="images/order2.png" alt="Order Processing Workflow Image" width="700" height="400">
 
 7. **Payment Handling**:
     - Securely process payments.
     - Support multiple payment methods.
 
-    <img src="images/payment.png" alt="Payment Handling Image" width="950" height="500">
+    <img src="images/payment.png" alt="Payment Handling Image" width="700" height="400">
 
 8. **Object-Oriented Design**:
     - Create classes corresponding to entities in the UML diagram (e.g., Order, Inventory, Supplier).
     - Implement inheritance and encapsulation.
 
-    <img src="images/oop.png" alt="Object-Oriented Design Image" width="950" height="500">
+    <img src="images/oop.png" alt="Object-Oriented Design Image" width="700" height="400">
 
 9. **File Handling**:
     - Use JSON to store data.
 
-    <img src="images/json.png" alt="File Handling Image" width="950" height="500">
+    <img src="images/json.png" alt="File Handling Image" width="700" height="400">
 
 10. **Error Handling**:
     - Prevent user from typing illegal characters in TextField.
     - Utilize try-catch blocks to manage errors.
 
-    <img src="images/error-handling.png" alt="Error Handling Image" width="950" height="500">
+    <img src="images/error-handling.png" alt="Error Handling Image" width="700" height="400">
 
 11. **JavaFX**:
     - Use JavaFX for GUI.
 
-    <img src="images/javafx.png" alt="JavaFX Image" width="950" height="500">
+    <img src="images/javafx.png" alt="JavaFX Image" width="700" height="400">
 
 ## Authors
 
