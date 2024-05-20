@@ -37,7 +37,7 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
     - Order status updates (e.g., processing, shipped, delivered).
     - Order history and tracking.
 
-    <img src="images/order.png" alt="Order Management Image" width="950" height="500">
+    <img src="images/order.png" alt="Order Management Image" width="700" height="400">
 
 2. **Inventory Tracking**:
     - Monitor stock levels.
