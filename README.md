@@ -106,7 +106,7 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
 
 - Muhammad Wasif Shakeel (456092)
 - [Qasim Ahmed (457282)](https://github.com/qasimahmed06)
-- Abdullah Hassan (479819)
+- [Abdullah Hassan (479819)](https://github.com/AbdullahHassan192)
 
 ## License
 
