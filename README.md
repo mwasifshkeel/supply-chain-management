@@ -28,65 +28,65 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
     - Order status updates (e.g., processing, shipped, delivered).
     - Order history and tracking.
 
-    ![Order Management Image](#)
+    ![Order Management Image](images/order.png)
 
 2. **Inventory Tracking**:
     - Monitor stock levels.
     - Update inventory quantities.
     - Handle restocking from suppliers.
 
-    ![Inventory Tracking Image](#)
+    ![Inventory Tracking Image](images/inventory.png)
 
 3. **Supplier Interaction**:
     - Manage supplier information.
     - Place orders with suppliers.
     - Schedule deliveries.
 
-    ![Supplier Interaction Image](#)
+    ![Supplier Interaction Image](images/supplier.png)
 
 4. **Product Information Management**:
     - Maintain detailed product information.
     - Include pricing, descriptions, and specifications.
 
-    ![Product Information Management Image](#)
+    ![Product Information Management Image](images/product.png)
 
 5. **Customer Management**:
     - Store customer details (contact info, order history).
     - Enhance customer service.
 
-    ![Customer Management Image](#)
+    ![Customer Management Image](images/customer.png)
 
 6. **Order Processing Workflow**:
     - Automate order processing from placement to delivery.
     - Handle payment processing.
 
-    ![Order Processing Workflow Image](#)
+    ![Order Processing Workflow Image](images/order2.png)
 
 7. **Payment Handling**:
     - Securely process payments.
     - Support multiple payment methods.
 
-    ![Payment Handling Image](#)
+    ![Payment Handling Image](images/payment.png)
 
 8. **Object-Oriented Design**:
     - Create classes corresponding to entities in the UML diagram (e.g., Order, Inventory, Supplier).
     - Implement inheritance and encapsulation.
 
-    ![Object-Oriented Design Image](#)
+    ![Object-Oriented Design Image](images/oop.png)
 
 9. **File Handling**:
     - Use JSON to store data.
 
-    ![File Handling Image](#)
+    ![File Handling Image](images/json.png)
 
 10. **Error Handling**:
     - Prevent user from typing illegal characters in TextField.
     - Utilize try-catch blocks to manage errors.
 
-    ![Error Handling Image](#)
+    ![Error Handling Image](images/error-handling.png)
 
 11. **JavaFX**:
     - Use JavaFX for GUI.
 
-    ![JavaFX Image](#)
+    ![JavaFX Image](images/javafx.png)
 
