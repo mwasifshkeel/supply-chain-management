@@ -13,103 +13,104 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
 
 ## Setup and Run Instructions
 
-**Prerequisites:**
-- IntelliJ IDEA 2023.3 (or later version) installed on your system.
-- Java Runtime Environment
+### Prerequisites
 
-**Setup Instructions:**
+- IntelliJ IDEA 2023.3 (or later version) installed on your system.
+- Java Runtime Environment.
+
+### Setup Instructions
+
 1. Clone the project repository from the source, or download it as a ZIP archive and extract it to your local machine.
     ```bash
     git clone https://github.com/mwasifshkeel/supply-chain-management.git
     ```
-3. Launch IntelliJ IDEA 2023.3 on your computer.
-4. Open the project by selecting "Open Project" from the welcome screen or navigating to "File" > "Open" and selecting the project directory.
-5. Trust the author of the project if prompted to do so by IntelliJ IDEA.
+2. Launch IntelliJ IDEA 2023.3 on your computer.
+3. Open the project by selecting "Open Project" from the welcome screen or navigating to `File > Open` and selecting the project directory.
+4. Trust the author of the project if prompted to do so by IntelliJ IDEA.
 
-**Running the Project:**
-1. Locate the main class of the project, typically the class containing the main method.
-2. Click on the "Run" button in the toolbar or right-click on the main class file and select "Run <MainClassName>" from the context menu.
+### Running the Project
 
-## Key Features and Functionalities Implemented:
+1. Locate the main class of the project, typically the class containing the `main` method.
+2. Click on the "Run" button in the toolbar or right-click on the main class file and select `Run <MainClassName>` from the context menu.
+
+## Key Features and Functionalities Implemented
 
 1. **Order Management**:
     - Ability to create, track, and manage orders.
     - Order status updates (e.g., processing, shipped, delivered).
     - Order history and tracking.
-
-    <img src="images/order.png" alt="Order Management Image" width="700" height="400">
+    
+    ![Order Management Image](images/order.png)
 
 2. **Inventory Tracking**:
     - Monitor stock levels.
     - Update inventory quantities.
     - Handle restocking from suppliers.
-
-    <img src="images/inventory.png" alt="Inventory Tracking Image" width="700" height="400">
+    
+    ![Inventory Tracking Image](images/inventory.png)
 
 3. **Supplier Interaction**:
     - Manage supplier information.
     - Place orders with suppliers.
     - Schedule deliveries.
-
-    <img src="images/supplier.png" alt="Supplier Interaction Image" width="700" height="400">
+    
+    ![Supplier Interaction Image](images/supplier.png)
 
 4. **Product Information Management**:
     - Maintain detailed product information.
     - Include pricing, descriptions, and specifications.
-
-    <img src="images/product.png" alt="Product Information Management Image" width="700" height="400">
+    
+    ![Product Information Management Image](images/product.png)
 
 5. **Customer Management**:
     - Store customer details (contact info, order history).
     - Enhance customer service.
-
-    <img src="images/customer.png" alt="Customer Management Image" width="700" height="400">
+    
+    ![Customer Management Image](images/customer.png)
 
 6. **Order Processing Workflow**:
     - Automate order processing from placement to delivery.
     - Handle payment processing.
-
-    <img src="images/order2.png" alt="Order Processing Workflow Image" width="700" height="400">
+    
+    ![Order Processing Workflow Image](images/order2.png)
 
 7. **Payment Handling**:
     - Securely process payments.
     - Support multiple payment methods.
-
-    <img src="images/payment.png" alt="Payment Handling Image" width="700" height="400">
+    
+    ![Payment Handling Image](images/payment.png)
 
 8. **Object-Oriented Design**:
     - Create classes corresponding to entities in the UML diagram (e.g., Order, Inventory, Supplier).
     - Implement inheritance and encapsulation.
-
-    <img src="images/oop.png" alt="Object-Oriented Design Image" width="700" height="400">
+    
+    ![Object-Oriented Design Image](images/oop.png)
 
 9. **File Handling**:
     - Use JSON to store data.
-
-    <img src="images/json.png" alt="File Handling Image" width="700" height="400">
+    
+    ![File Handling Image](images/json.png)
 
 10. **Error Handling**:
-    - Prevent user from typing illegal characters in TextField.
+    - Prevent user from typing illegal characters in `TextField`.
     - Utilize try-catch blocks to manage errors.
-
-    <img src="images/error-handling.png" alt="Error Handling Image" width="700" height="400">
+    
+    ![Error Handling Image](images/error-handling.png)
 
 11. **JavaFX**:
     - Use JavaFX for GUI.
-
-    <img src="images/javafx.png" alt="JavaFX Image" width="700" height="400">
+    
+    ![JavaFX Image](images/javafx.png)
 
 ## Authors
 
-- Muhammad Wasif Shakeel 456092
-- Qasim Ahmed 457282
-- Abdullah Hassan 479819
+- Muhammad Wasif Shakeel (456092)
+- Qasim Ahmed (457282)
+- Abdullah Hassan (479819)
 
 ## License
 
-MIT License
-
-Distributed under the MIT License.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
