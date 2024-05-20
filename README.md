@@ -4,6 +4,13 @@
 
 The Supply Chain Management System (SCMS) aims to optimize supply chain processes, enhancing efficiency and reducing costs. It includes modules for product, supplier, order, inventory, customer, warehouse, payment, delivery tracking, and demand forecasting. SCMS provides real-time visibility and streamlined operations through standardized JSON data interchange.
 
+## Technologies Used
+
+- Java
+- JavaFX
+- Scene Builder
+- Apache Commons Math
+
 ## Setup and Run Instructions
 
 **Prerequisites:**
@@ -12,9 +19,12 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
 
 **Setup Instructions:**
 1. Clone the project repository from the source, or download it as a ZIP archive and extract it to your local machine.
-2. Launch IntelliJ IDEA 2023.3 on your computer.
-3. Open the project by selecting "Open Project" from the welcome screen or navigating to "File" > "Open" and selecting the project directory.
-4. Trust the author of the project if prompted to do so by IntelliJ IDEA.
+    ```bash
+    git clone https://github.com/mwasifshkeel/supply-chain-management.git
+    ```
+3. Launch IntelliJ IDEA 2023.3 on your computer.
+4. Open the project by selecting "Open Project" from the welcome screen or navigating to "File" > "Open" and selecting the project directory.
+5. Trust the author of the project if prompted to do so by IntelliJ IDEA.
 
 **Running the Project:**
 1. Locate the main class of the project, typically the class containing the main method.
@@ -89,3 +99,27 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
 
     ![JavaFX Image](images/javafx.png)
 
+## Authors
+
+- Muhammad Wasif Shakeel 456092
+- Qasim Ahmed 457282
+- Abdullah Hassan 479819
+
+## License
+
+MIT License
+
+Distributed under the MIT License.
+
+## Acknowledgements
+
+
+•	[Java] (https://docs.oracle.com/en/java/)
+•	[Maven] (https://maven.apache.org/guides/index.html)
+•	[JavaFX] (https://openjfx.io/openjfx-docs/)
+•	[IntelliJ Idea] (https://www.jetbrains.com/help/idea/getting-started.html)
+•	[FasterXML Jackson JSON] (https://github.com/FasterXML/jackson/blob/master/MANUAL.md)
+•	[Apache Commons Math] (https://commons.apache.org/proper/commons-math/)
+•	[JSON] (https://github.com/stleary/JSON-java)
+•	[All Icons] (https://www.svgrepo.com/)
+•	[Scene Builder] (https://docs.gluonhq.com/)
