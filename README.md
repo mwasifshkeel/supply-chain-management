@@ -6,10 +6,9 @@ The Supply Chain Management System (SCMS) aims to optimize supply chain processe
 
 ## Setup and Run Instructions
 
-### Option 1: Using IntelliJ IDEA (Recommended)
-
 **Prerequisites:**
 - IntelliJ IDEA 2023.3 (or later version) installed on your system.
+- Java Runtime Environment
 
 **Setup Instructions:**
 1. Clone the project repository from the source, or download it as a ZIP archive and extract it to your local machine.
